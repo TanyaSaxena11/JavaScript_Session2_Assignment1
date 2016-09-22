@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Min and Max numbers</title>	
+
+	<script type="text/javascript">
+	var number = [10,55,9,4,234,20,30,40,22,34];	
+	var min_num = number[0];	
+	var max_num = number[0];
+
+
+	for (var i = 0; i<number.length;i++)
+	{
+		if(number[i] < min_num)
+		{
+			min_num = number[i];			
+		}
+		
+	}
+
+	for (var i = 0;i<number.length;i++)
+	{
+		if(number[i] > max_num)
+		{
+			max_num = number[i];
+		}
+	}
+	
+	document.write(min_num + " is the minimum number." + "<br/>");
+	document.write(max_num + " is the maximum number.");
+
+	</script>
+
+</head>
+<body>
+		
+</body>
+</html>
